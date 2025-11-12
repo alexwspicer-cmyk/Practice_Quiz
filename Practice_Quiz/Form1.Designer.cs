@@ -105,7 +105,7 @@
             // 
             this.label5.Location = new System.Drawing.Point(1, 324);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(341, 75);
+            this.label5.Size = new System.Drawing.Size(387, 75);
             this.label5.TabIndex = 6;
             this.label5.Text = "The user will enter their name.  The label will output \"Hello USERNAME\" (replace " +
     "USERNAME with the users input";
