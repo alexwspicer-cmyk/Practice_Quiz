@@ -70,6 +70,7 @@
             // 
             // label3
             // 
+            this.label3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(1, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(267, 75);
@@ -80,10 +81,11 @@
             // 
             this.question01Button.Location = new System.Drawing.Point(5, 147);
             this.question01Button.Name = "question01Button";
-            this.question01Button.Size = new System.Drawing.Size(119, 35);
+            this.question01Button.Size = new System.Drawing.Size(243, 35);
             this.question01Button.TabIndex = 3;
             this.question01Button.Text = "Question 01";
             this.question01Button.UseVisualStyleBackColor = true;
+            this.question01Button.Click += new System.EventHandler(this.question01Button_Click);
             // 
             // question1OutputLabel
             // 
@@ -92,6 +94,7 @@
             this.question1OutputLabel.Size = new System.Drawing.Size(247, 47);
             this.question1OutputLabel.TabIndex = 4;
             this.question1OutputLabel.Text = "question1OutputLabel";
+            this.question1OutputLabel.Visible = false;
             // 
             // label4
             // 
@@ -103,6 +106,7 @@
             // 
             // label5
             // 
+            this.label5.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(1, 324);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(387, 75);
@@ -114,16 +118,17 @@
             // 
             this.question2Button.Location = new System.Drawing.Point(5, 417);
             this.question2Button.Name = "question2Button";
-            this.question2Button.Size = new System.Drawing.Size(119, 35);
+            this.question2Button.Size = new System.Drawing.Size(286, 35);
             this.question2Button.TabIndex = 7;
             this.question2Button.Text = "Question 02";
             this.question2Button.UseVisualStyleBackColor = true;
+            this.question2Button.Click += new System.EventHandler(this.question2Button_Click);
             // 
             // question2TextBox
             // 
             this.question2TextBox.Location = new System.Drawing.Point(5, 385);
             this.question2TextBox.Name = "question2TextBox";
-            this.question2TextBox.Size = new System.Drawing.Size(286, 26);
+            this.question2TextBox.Size = new System.Drawing.Size(286, 31);
             this.question2TextBox.TabIndex = 8;
             // 
             // question2OutputLabel
@@ -133,6 +138,7 @@
             this.question2OutputLabel.Size = new System.Drawing.Size(319, 47);
             this.question2OutputLabel.TabIndex = 9;
             this.question2OutputLabel.Text = "question2OutputLabel";
+            this.question2OutputLabel.Visible = false;
             // 
             // label6
             // 
@@ -144,6 +150,7 @@
             // 
             // label7
             // 
+            this.label7.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(477, 86);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(310, 183);
@@ -153,25 +160,26 @@
             // 
             // question3Button
             // 
-            this.question3Button.Location = new System.Drawing.Point(539, 324);
+            this.question3Button.Location = new System.Drawing.Point(479, 324);
             this.question3Button.Name = "question3Button";
-            this.question3Button.Size = new System.Drawing.Size(119, 35);
+            this.question3Button.Size = new System.Drawing.Size(259, 35);
             this.question3Button.TabIndex = 12;
             this.question3Button.Text = "Question 03";
             this.question3Button.UseVisualStyleBackColor = true;
+            this.question3Button.Click += new System.EventHandler(this.question3Button_Click);
             // 
             // q3Int1Text
             // 
             this.q3Int1Text.Location = new System.Drawing.Point(479, 281);
             this.q3Int1Text.Name = "q3Int1Text";
-            this.q3Int1Text.Size = new System.Drawing.Size(100, 26);
+            this.q3Int1Text.Size = new System.Drawing.Size(100, 31);
             this.q3Int1Text.TabIndex = 13;
             // 
             // q3int2Text
             // 
             this.q3int2Text.Location = new System.Drawing.Point(638, 281);
             this.q3int2Text.Name = "q3int2Text";
-            this.q3int2Text.Size = new System.Drawing.Size(100, 26);
+            this.q3int2Text.Size = new System.Drawing.Size(100, 31);
             this.q3int2Text.TabIndex = 14;
             // 
             // question3OutputLabel
@@ -181,6 +189,7 @@
             this.question3OutputLabel.Size = new System.Drawing.Size(295, 47);
             this.question3OutputLabel.TabIndex = 15;
             this.question3OutputLabel.Text = "question3OutputLabel";
+            this.question3OutputLabel.Visible = false;
             // 
             // label8
             // 
@@ -195,7 +204,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(477, 417);
+            this.label9.Location = new System.Drawing.Point(509, 455);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(263, 84);
             this.label9.TabIndex = 17;
@@ -211,7 +220,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label10);
