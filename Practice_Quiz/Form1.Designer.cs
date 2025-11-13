@@ -151,9 +151,9 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(477, 86);
+            this.label7.Location = new System.Drawing.Point(431, 86);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(310, 183);
+            this.label7.Size = new System.Drawing.Size(356, 183);
             this.label7.TabIndex = 11;
             this.label7.Text = resources.GetString("label7.Text");
             this.label7.Click += new System.EventHandler(this.label7_Click);
